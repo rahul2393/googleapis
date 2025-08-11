@@ -50,6 +50,7 @@ proto_library(
         "spanner.proto",
         "transaction.proto",
         "type.proto",
+        "location.proto",
     ],
     deps = [
         "//google/api:annotations_proto",
@@ -57,6 +58,7 @@ proto_library(
         "//google/api:field_behavior_proto",
         "//google/api:resource_proto",
         "//google/rpc:status_proto",
+        "//google/cloud:location_proto",
         "@com_google_protobuf//:duration_proto",
         "@com_google_protobuf//:empty_proto",
         "@com_google_protobuf//:struct_proto",
